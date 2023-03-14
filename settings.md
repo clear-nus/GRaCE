@@ -36,7 +36,13 @@ GoES tackles objects in complex environments.
 
    - E_TYPE: shelf008
    - (cat, idx):
-      - (box)
+      - (bottle 14)
+      - (bowl 8)
+      - (bowl 10)
+      - (pan 6)
+      - (pan 12)
+      - (fork 6)
+      - (scissor 7)
    
    - E_TYPE: diner001
    - (cat, idx):
