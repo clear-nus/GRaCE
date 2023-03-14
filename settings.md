@@ -40,7 +40,11 @@ GoES tackles objects in complex environments.
    
    - E_TYPE: diner001
    - (cat, idx):
-      - (box)
+      - (pan, 12)
+      - (spatula, 14)
+      - (bottle, 0)
+      - (bowl, 8)
+      - (fork, 6)
 
 For both environments, GoES can optimized using following parameters:
    - Classifiers:
