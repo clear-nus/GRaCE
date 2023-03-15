@@ -34,7 +34,8 @@ We mainly follow same installation as in. However, we also extended it to add ad
 ### Prerequisites
 1. franka_analytical_ik - solves analytical IK for Panda Robot.
 2. differentiable-robot-model -  differentiable robot model used for E-classifier to calculate FK of the robot.
-3. Task-Grasp (TODO **KELVIN**)
+3. Task-Grasp - Classifier for grasps with respect to the intent provided by a user
+4. JointBERT - Intent classification model for grasp queries from a user
 
 ### Usage
 To optimize grasps, go to GoES folder:
