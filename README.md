@@ -1,4 +1,4 @@
-# GraspFlow
+# GoES
 
 ## Introduction
 
