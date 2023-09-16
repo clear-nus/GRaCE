@@ -6,6 +6,13 @@ experiments/composites/*
 experiments/pointclouds/*
 experiments/test/*
 
+# misc
+experiments/pan012_graspnet.npz
+experiments/pan012_pc.npz
+experiments/pan016.urdf
+experiments/utils.py
+experiments/graspflow.py
+
 ### GraspFlow ###
 graspflow/temp_data/
 graspflow/networks/__pycache__/

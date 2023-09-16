@@ -8,7 +8,7 @@ Strategy techniques. Unlike existing works, GoES is modular and rule-based, and 
 task criteria. Experimental results in two different simulated environments show that GoES outperforms filtering
 techniques and requires significantly fewer samples to obtain successful grasps.
 
-<img align="center" alt="GraspFlow" src="figs/main_fig3.png" width="600" height="300" />
+    <img align="center" alt="GraspFlow" src="figs/main_fig3.png" width="600" height="300" />
 
 This project has a lot of submodules. We recommend to use forked versions of submodules given in this repository. First, create and activate conda environment and install modules given in environment.yaml:
 
