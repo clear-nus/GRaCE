@@ -1,12 +1,8 @@
-# GoES
+# GRaCE
 
 ## Introduction
 
-In this work, we propose GoES, a modular grasp optimization framework that maximizes a rank-preserving
-grasp utility function. GoES takes advantage of both gradient-based optimization and gradient-free Evolution
-Strategy techniques. Unlike existing works, GoES is modular and rule-based, and thus can be extended with relevant
-task criteria. Experimental results in two different simulated environments show that GoES outperforms filtering
-techniques and requires significantly fewer samples to obtain successful grasps.
+This paper addresses the multi-faceted problem of robot grasping, where multiple criteria may conflict and differ in importance. We introduce Grasp Ranking and Criteria Evaluation (GRaCE), a novel approach that employs hierarchical rule-based logic and a rank-preserving utility function to optimize grasps based on various criteria such as stability, kinematic constraints, and goal-oriented functionalities. Additionally, we propose GRaCE-OPT, a hybrid optimization strategy that combines gradient-based and gradient-free methods to effectively navigate the complex, non-convex utility function. Experimental results in both simulated and real-world scenarios show that GRaCE requires fewer samples to achieve comparable or superior performance relative to existing methods. The modular architecture of GRaCE allows for easy customization and adaptation to specific application needs.
 
     <img align="center" alt="GraspFlow" src="figs/main_fig3.png" width="600" height="300" />
 
@@ -29,7 +25,7 @@ We mainly follow same installation as in. However, we also extended it to add ad
 *Note:* Generally any grasp sampler can be used. In our paper, we have also tested on [GPD sampler](https://github.com/tasbolat1/gpd.git).
 
 
-## Section 2: Grasp Optimization via GoES
+## Section 2: Grasp Optimization via GRaCE
 
 ### Prerequisites
 1. franka_analytical_ik - solves analytical IK for Panda Robot.
